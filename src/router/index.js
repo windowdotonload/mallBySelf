@@ -1,11 +1,22 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
-
+import Home from '../pages/Home.vue'
 Vue.use(VueRouter)
 
-const routes = [
 
+const routes = [
+  {
+    path: '/',
+    name: 'home',
+    component: Home,
+    // redirect: '/home',
+    children: [
+
+    ]
+
+
+
+  }
 ]
 
 const router = new VueRouter({
