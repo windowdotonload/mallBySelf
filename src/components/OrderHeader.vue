@@ -1,5 +1,11 @@
 <template>
-  <div>
-    <h1>O R D E R H E A D E R</h1>
-  </div>
+  <div class="continer"></div>
 </template>
+
+<style scoped>
+.continer {
+  width: 100%;
+  height: 30px;
+  background: black;
+}
+</style>
